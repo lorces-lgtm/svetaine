@@ -276,7 +276,7 @@ p { margin: 0; max-width: 62ch; }
 }
 .prisidek > * { max-width: var(--plotis); margin-left: auto; margin-right: auto; }
 .prisidek-kam {
-  display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 96px);
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: clamp(28px, 4vw, 64px);
   margin-top: clamp(36px, 5vw, 56px); margin-bottom: clamp(36px, 5vw, 56px);
 }
 .prisidek-kam h3 { margin-bottom: .6rem; }
@@ -358,3 +358,5 @@ p { margin: 0; max-width: 62ch; }
   .pirmas::after { bottom: auto; height: 96px; background: linear-gradient(to bottom, rgba(15,16,13,.6) 0%, rgba(15,16,13,0) 100%); }
   .pirmas-tekstas { padding-top: 1.6rem; }
 }
+
+.lesos-surinkta { margin-top: 1rem; font-family: "Playfair Display", Georgia, serif; font-size: 1.15rem; color: var(--kremine); }
