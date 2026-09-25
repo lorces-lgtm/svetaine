@@ -117,7 +117,7 @@ p { margin: 0; max-width: 62ch; }
   padding: 0 var(--krastas) clamp(48px, 9vh, 96px) max(var(--krastas), calc((100% - var(--plotis)) / 2));
 }
 .pirmas h1 { font-size: clamp(2.5rem, 5.4vw, 4.8rem); font-weight: 400; max-width: 11em; }
-.pirmas p { margin: 1.4rem 0 2.2rem; font-size: 1.08rem; max-width: 44ch; color: #DAD7CB; }
+.pirmas p { margin: 1.4rem 0 2.2rem; font-size: clamp(1.15rem, 1.6vw, 1.4rem); line-height: 1.5; max-width: 40ch; color: #E6E3D8; }
 
 @media (prefers-reduced-motion: no-preference) {
   .pirmas-foto { animation: priartinti 2.4s cubic-bezier(.16,1,.3,1) both; }
