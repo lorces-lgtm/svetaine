@@ -368,3 +368,4 @@ p { margin: 0; max-width: 62ch; }
 .takas-keliai li::before { content: "–"; position: absolute; left: 0; color: var(--samanos); }
 .kas-mygtukai { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 1rem; }
 .kas-mygtukai .mygtukas { margin: 0; }
+.kortele-mygtukas { display: inline-block; margin-top: 1.2rem; white-space: normal; }
