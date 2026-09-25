@@ -366,3 +366,5 @@ p { margin: 0; max-width: 62ch; }
 .takas-keliai { list-style: none; padding: 0; margin: .5rem 0 .7rem; }
 .takas .takas-keliai li { position: relative; padding: 0 0 0 1.2em; margin: .35rem 0; color: #CFCCC0; }
 .takas-keliai li::before { content: "–"; position: absolute; left: 0; color: var(--samanos); }
+.kas-mygtukai { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 1rem; }
+.kas-mygtukai .mygtukas { margin: 0; }
