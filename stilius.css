@@ -362,3 +362,4 @@ p { margin: 0; max-width: 62ch; }
 .lesos-surinkta { margin-top: 1rem; font-family: "Playfair Display", Georgia, serif; font-size: 1.15rem; color: var(--kremine); }
 .kas-kviecia { margin-top: 2.4rem; text-align: center; font-family: "Playfair Display", Georgia, serif; font-size: 1.2rem; color: var(--kremine); }
 .kas-kviecia + .mygtukas { margin-top: 1rem; }
+.takas strong { font-weight: 700; color: var(--kremine); }
