@@ -32,7 +32,7 @@ forma.addEventListener("submit", (e) => {
   }
 
   rodykKlaida("");
-  const tema = encodeURIComponent("Pranešk man apie pirmą aukcioną");
+  const tema = encodeURIComponent("Pranešk man apie aukcionus");
   const tekstas = encodeURIComponent(
     "Sveiki,\n\nnoriu sužinoti apie pirmą „Stiliaus tako“ aukcioną ar renginį.\nMano el. paštas: " + adresas
   );
