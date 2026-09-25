@@ -363,3 +363,6 @@ p { margin: 0; max-width: 62ch; }
 .kas-kviecia { margin-top: 2.4rem; text-align: center; font-family: "Playfair Display", Georgia, serif; font-size: 1.2rem; color: var(--kremine); }
 .kas-kviecia + .mygtukas { margin-top: 1rem; }
 .takas strong { font-weight: 700; color: var(--kremine); }
+.takas-keliai { list-style: none; padding: 0; margin: .5rem 0 .7rem; }
+.takas-keliai li { position: relative; padding-left: 1.2em; margin: .35rem 0; color: #CFCCC0; }
+.takas-keliai li::before { content: "–"; position: absolute; left: 0; color: var(--samanos); }
