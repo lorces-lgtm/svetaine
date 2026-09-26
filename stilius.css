@@ -374,3 +374,11 @@ p { margin: 0; max-width: 62ch; }
 .kas-mygtukai { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 1rem; }
 .kas-mygtukai .mygtukas { margin: 0; }
 .kortele-mygtukas { display: inline-block; margin-top: 1.2rem; white-space: normal; }
+
+/* Siauresniuose, ne plačiuose ekranuose (planšetė, siauras langas) kadras visas, tekstas po juo, kad matytųsi visos keturios suknelės (Loreta 2026-09-26) */
+@media (min-width: 821px) and (max-aspect-ratio: 16/10) {
+  .pirmas { min-height: auto; display: block; }
+  .pirmas-foto { position: relative; inset: auto; z-index: auto; height: auto; aspect-ratio: 16 / 9; object-position: 100% 50%; }
+  .pirmas::after { bottom: auto; height: 130px; background: linear-gradient(to bottom, rgba(15,16,13,.8) 0%, rgba(15,16,13,0) 100%); }
+  .pirmas-tekstas { padding-top: 2.4rem; }
+}
