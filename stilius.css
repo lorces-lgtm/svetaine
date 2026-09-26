@@ -396,3 +396,5 @@ p { margin: 0; max-width: 62ch; }
   .lesos-juosta::after { background: linear-gradient(to bottom, rgba(15,16,13,.55) 0%, rgba(15,16,13,0) 50%); }
   .lesos-antraste { top: 0; bottom: auto; padding-top: 2rem; }
 }
+/* Apačioje logotipo etalonas, apskritas kaip Instagrame (Loreta 2026-09-26) */
+.apacia img { width: 128px; height: 128px; padding: 0; background: none; border-radius: 50%; }
