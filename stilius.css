@@ -398,3 +398,5 @@ p { margin: 0; max-width: 62ch; }
 }
 /* Apačioje logotipo etalonas, apskritas kaip Instagrame (Loreta 2026-09-26) */
 .apacia img { width: 128px; height: 128px; padding: 0; background: none; border-radius: 50%; }
+/* Takų vardai su viena eilute paaiškinimo (Loreta 2026-09-26: „abstraktu, neina įsivaizduoti“) */
+.lesos-sarasas li span { display: block; margin-top: .35rem; font-family: var(--tekstas); font-size: 1rem; line-height: 1.5; color: #CFCCC0; }
