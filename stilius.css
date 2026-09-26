@@ -281,7 +281,7 @@ p { margin: 0; max-width: 62ch; }
 }
 .prisidek > * { max-width: var(--plotis); margin-left: auto; margin-right: auto; }
 .prisidek-kam {
-  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: clamp(28px, 4vw, 64px);
+  display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 4vw, 64px);
   margin-top: clamp(36px, 5vw, 56px); margin-bottom: clamp(36px, 5vw, 56px);
 }
 .prisidek-kam h3 { margin-bottom: .6rem; }
