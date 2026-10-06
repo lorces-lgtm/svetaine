@@ -404,7 +404,7 @@ p { margin: 0; max-width: 62ch; }
 .takai-saule { width: 100%; height: auto; display: block; }
 .takai-saule-vardai text { font-family: var(--antrastes); fill: #D9C39A; font-size: 30px; letter-spacing: .22em; }
 .takai-saule-vardas { font-family: "Italianno", var(--antrastes); fill: #3A422A; font-size: 31px; }
-.lesos-sarasas { display: none; }
+.lesos-sarasas { max-width: 640px; margin: 0 auto; text-align: center; }
 @media (max-width: 820px) {
   .takai-saule-vardai text { font-size: 36px; letter-spacing: .1em; }
 }
