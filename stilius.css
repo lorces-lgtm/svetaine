@@ -431,3 +431,6 @@ p { margin: 0; max-width: 62ch; }
 @media (max-width: 760px) { .kas-turinys .kas-sarasas { font-size: 1.45rem; } }
 .kas-turinys .kas-sarasas span { color: #8E8B7E; }
 .kas-turinys .kas-sarasas span:nth-child(even) { color: #E8E5D9; }
+.kas-turinys .kas-sarasas { font-size: clamp(1.4rem, 2.6vw, 2.35rem); }
+@media (max-width: 760px) { .kas-turinys .kas-sarasas { font-size: 1.55rem; } }
+@media (max-width: 380px) { .kas-turinys .kas-sarasas span { white-space: normal; } }
