@@ -421,3 +421,4 @@ p { margin: 0; max-width: 62ch; }
 .lesos-antraste p { text-shadow: 0 1px 10px rgba(15,16,13,.75); }
 .apacia-sukis { font-family: var(--antrastes); text-transform: uppercase; letter-spacing: .16em; font-size: .95rem; color: #D9C39A; margin-bottom: .6rem; }
 .pabaiga-mintis { font-family: var(--antrastes); font-style: italic; font-size: 1.15rem; line-height: 1.5; color: #D9C39A; margin-bottom: 1.2rem; }
+.takai-skaidre .takai-vieta { max-width: none; width: 100%; text-align: center; color: #CFCCC0; font-size: 1rem; margin: 10px 0 0; }
