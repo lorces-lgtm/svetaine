@@ -420,3 +420,4 @@ p { margin: 0; max-width: 62ch; }
 .lesos-antraste { top: 0; bottom: auto; padding-top: clamp(40px, 6vw, 80px); padding-bottom: 0; }
 .lesos-antraste p { text-shadow: 0 1px 10px rgba(15,16,13,.75); }
 .apacia-sukis { font-family: var(--antrastes); text-transform: uppercase; letter-spacing: .16em; font-size: .95rem; color: #D9C39A; margin-bottom: .6rem; }
+.pabaiga-mintis { font-family: var(--antrastes); font-style: italic; font-size: 1.15rem; line-height: 1.5; color: #D9C39A; margin-bottom: 1.2rem; }
