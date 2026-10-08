@@ -445,3 +445,5 @@ p { margin: 0; max-width: 62ch; }
 
 }
 .pabaiga-kvietimas > p { color: #CFCCC0; margin-bottom: 2.2rem; }
+/* Telefone saulėje be smulkių „TAKAS“, antraštė „Būties takai“ tai jau pasako (Loreta 2026-10-08) */
+@media (max-width: 600px) { .takai-saule-takas { display: none; } }
