@@ -434,3 +434,4 @@ p { margin: 0; max-width: 62ch; }
 .kas-turinys .kas-sarasas { font-size: clamp(1.4rem, 2.6vw, 2.35rem); }
 @media (max-width: 760px) { .kas-turinys .kas-sarasas { font-size: 1.55rem; } }
 @media (max-width: 380px) { .kas-turinys .kas-sarasas span { white-space: normal; } }
+@media (max-width: 760px) { .kas-turinys { margin-top: 28px; } }
