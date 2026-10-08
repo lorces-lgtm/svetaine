@@ -435,3 +435,13 @@ p { margin: 0; max-width: 62ch; }
 @media (max-width: 760px) { .kas-turinys .kas-sarasas { font-size: 1.55rem; } }
 @media (max-width: 380px) { .kas-turinys .kas-sarasas span { white-space: normal; } }
 @media (max-width: 760px) { .kas-turinys { margin-top: 28px; } }
+/* Telefone pabaigoje: antraštė ir mintis → pėdų nuotrauka → aukcionų kvietimas (Loreta 2026-10-08) */
+@media (max-width: 820px) {
+  .pabaiga { gap: 0; }
+  .pabaiga-tekstas { display: contents; }
+  .pabaiga h2, .pabaiga-mintis { order: 0; }
+  .pabaiga-foto { order: 1; margin: 1.2rem 0 2.4rem; }
+  .pabaiga-kvietimas { order: 2; }
+
+}
+.pabaiga-kvietimas > p { color: #CFCCC0; margin-bottom: 2.2rem; }
