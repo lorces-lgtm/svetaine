@@ -39,3 +39,22 @@ forma.addEventListener("submit", (e) => {
   window.location.href = `mailto:${PASTAS}?subject=${tema}&body=${tekstas}`;
   aciu.hidden = false;
 });
+
+// Žingsnių garsas: groja tik paspaudus
+(function () {
+  var mygtukas = document.querySelector('.garsas');
+  var garsas = document.getElementById('zingsniai');
+  if (!mygtukas || !garsas) return;
+  var zenklas = mygtukas.querySelector('.garsas-zenklas');
+  var tekstas = mygtukas.querySelector('.garsas-tekstas');
+  function busena(groja) {
+    mygtukas.setAttribute('aria-pressed', groja ? 'true' : 'false');
+    zenklas.textContent = groja ? '❚❚' : '▶';
+    tekstas.textContent = groja ? 'Sustabdyk' : 'Išgirsk savo žingsnius';
+  }
+  mygtukas.addEventListener('click', function () {
+    if (garsas.paused) { garsas.currentTime = 0; garsas.play(); busena(true); }
+    else { garsas.pause(); busena(false); }
+  });
+  garsas.addEventListener('ended', function () { busena(false); });
+})();

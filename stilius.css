@@ -449,3 +449,9 @@ p { margin: 0; max-width: 62ch; }
 @media (max-width: 600px) { .takai-saule-takas { display: none; } }
 /* Lankytojui: takai ne tik dovanojantiems (Loreta 2026-10-08) */
 .lesos-antraste p.lesos-atviri { font-family: var(--antrastes); font-style: italic; font-size: clamp(1.35rem, 2.2vw, 1.75rem); line-height: 1.35; color: #F1E6CF; margin-top: 1.3rem; text-shadow: 0 1px 14px rgba(15,16,13,.95), 0 0 4px rgba(15,16,13,.6); }
+
+/* Žingsnių garsas prie „Palik pėdsaką“ */
+.garsas { display: inline-flex; align-items: center; gap: .6rem; background: none; border: 1px solid #D9C39A; color: #D9C39A; font-family: var(--antrastes); font-style: italic; font-size: 1.05rem; padding: .55rem 1.2rem; border-radius: 999px; cursor: pointer; margin-bottom: 2rem; transition: background .3s, color .3s; }
+.garsas:hover, .garsas:focus-visible, .garsas[aria-pressed="true"] { background: #D9C39A; color: #2B2B2B; }
+.garsas-zenklas { font-style: normal; font-size: .85rem; line-height: 1; }
+@media (max-width: 820px) { .garsas { order: 0; justify-self: start; margin: 0 0 1.6rem; } }
