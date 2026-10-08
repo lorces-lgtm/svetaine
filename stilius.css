@@ -447,3 +447,5 @@ p { margin: 0; max-width: 62ch; }
 .pabaiga-kvietimas > p { color: #CFCCC0; margin-bottom: 2.2rem; }
 /* Telefone saulėje be smulkių „TAKAS“, antraštė „Būties takai“ tai jau pasako (Loreta 2026-10-08) */
 @media (max-width: 600px) { .takai-saule-takas { display: none; } }
+/* Lankytojui: takai ne tik dovanojantiems (Loreta 2026-10-08) */
+.lesos-antraste p.lesos-atviri { font-family: var(--antrastes); font-style: italic; font-size: clamp(1.35rem, 2.2vw, 1.75rem); line-height: 1.35; color: #F1E6CF; margin-top: 1.3rem; text-shadow: 0 1px 14px rgba(15,16,13,.95), 0 0 4px rgba(15,16,13,.6); }
