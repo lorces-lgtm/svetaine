@@ -328,6 +328,7 @@ p { margin: 0; max-width: 62ch; }
 }
 .apacia p { max-width: none; }
 .apacia-vardas { font-family: "Italianno", var(--antrastes); font-size: 2.1rem; line-height: 1; color: var(--kremine); }
+.apacia-iniciatyva { color: var(--kremine); margin: .5rem 0 .3rem; letter-spacing: .02em; }
 .apacia a { text-decoration: none; }
 .apacia a:hover { text-decoration: underline; text-underline-offset: 4px; color: var(--kremine); }
 .apacia-metai { margin-top: .4rem; }
